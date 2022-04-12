@@ -1,0 +1,12 @@
+.btn {
+  margin-top: -20px;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+.inputUser {
+  margin-left: 50px;
+  margin-top: 45px;
+  height: 24px;
+}

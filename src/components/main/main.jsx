@@ -24,6 +24,7 @@ function MainComponent({ renderPosts, value }) {
         <input
           className={styles.inputUser}
           onChange={(e) => setFindUser(e.target.value)}
+          placeholder="Поиск по пользователям"
         />
 
         <div className={styles.btn}>

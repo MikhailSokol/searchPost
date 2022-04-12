@@ -52,6 +52,7 @@ function MessageComponent(props) {
         <input
           className={styles.input}
           onChange={(e) => setValue(e.target.value)}
+          placeholder="Поиск по тексту"
         />
       </div>
       <div className={styles.message}>

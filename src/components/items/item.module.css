@@ -1,0 +1,26 @@
+.users {
+  border: 2px solid black;
+  width: 400px;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 20px;
+
+  margin: 70px 0 20px 50px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid yellowgreen;
+  margin-left: 300px;
+  position: relative;
+  bottom: 55px;
+  padding-left: 15px;
+
+  padding-top: 15px;
+}
+
+.link {
+  text-decoration: none;
+}

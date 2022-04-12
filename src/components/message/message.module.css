@@ -1,0 +1,66 @@
+.message {
+  /* position:absolute;
+  margin-top: auto; */
+  /* border: 2px solid black; */
+
+  width: 800px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.posts {
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 130px;
+  /* border: 2px solid red; */
+  margin: 3%;
+}
+.title {
+  font-size: 23px;
+}
+.userName {
+  color: gold;
+  margin-left: 3%;
+  width: 450px;
+  /* border: 2px salmon solid; */
+}
+.btn {
+  color: blue;
+  margin-top: 3%;
+  width: 170px;
+  height: 30px;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+.parentBtn {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  margin-left: 3%;
+}
+
+.input {
+  margin-top: 3%;
+  width: 170px;
+  height: 24px;
+  margin-left: 5%;
+}
+.data {
+  margin-left: 50%;
+  width: 390px;
+}
+.userData {
+  display: flex;
+  flex-direction: row;
+}
+.title:first-letter,
+.body:first-letter {
+  text-transform: uppercase;
+}
